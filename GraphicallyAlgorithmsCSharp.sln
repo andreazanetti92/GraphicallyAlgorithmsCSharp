@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33424.131
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphicallyAlgorithmsCSharp.BubbleSort", "GraphicallyAlgorithmsCSharp.BubbleSort\GraphicallyAlgorithmsCSharp.BubbleSort.csproj", "{5E5E55EE-BA9B-4147-8D62-1EF2C1DFEE5C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphicallyAlgorithmsCSharp.MinValue", "GraphicallyAlgorithmsCSharp.MinValue\GraphicallyAlgorithmsCSharp.MinValue.csproj", "{A31F156D-5178-4B5F-98C1-171CC299A580}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5E5E55EE-BA9B-4147-8D62-1EF2C1DFEE5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E5E55EE-BA9B-4147-8D62-1EF2C1DFEE5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E5E55EE-BA9B-4147-8D62-1EF2C1DFEE5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E5E55EE-BA9B-4147-8D62-1EF2C1DFEE5C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A31F156D-5178-4B5F-98C1-171CC299A580}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A31F156D-5178-4B5F-98C1-171CC299A580}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A31F156D-5178-4B5F-98C1-171CC299A580}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A31F156D-5178-4B5F-98C1-171CC299A580}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {05C703D9-6C81-4264-80A2-9352203C219D}
+	EndGlobalSection
+EndGlobal
