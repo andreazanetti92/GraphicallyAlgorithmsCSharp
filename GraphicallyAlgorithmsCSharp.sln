@@ -3,11 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33424.131
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BubbleSort", "BubbleSort\BubbleSort.csproj", "{5E5E55EE-BA9B-4147-8D62-1EF2C1DFEE5C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BubbleSort", "GraphicallyAlgorithmsCSharp.BubbleSort\BubbleSort.csproj", "{5E5E55EE-BA9B-4147-8D62-1EF2C1DFEE5C}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MinValue", "MinValue\MinValue.csproj", "{A31F156D-5178-4B5F-98C1-171CC299A580}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MinValue", "GraphicallyAlgorithmsCSharp.MinValue\MinValue.csproj", "{A31F156D-5178-4B5F-98C1-171CC299A580}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SelectSort", "SelectSort\SelectSort.csproj", "{98F73CF9-3BE2-4AC2-B108-6B7DC4C7D050}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SelectSort", "SelectSort\SelectSort.csproj", "{98F73CF9-3BE2-4AC2-B108-6B7DC4C7D050}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinearTableAppend", "LinearTableAppend\LinearTableAppend.csproj", "{54DA52AD-0A56-4BD8-B980-0C0A8A2401C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinearTableInsert", "LinearTableInsert\LinearTableInsert.csproj", "{F6B0742A-3743-44B4-A6AC-2A91E40CB3A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinearTableDelete", "LinearTableDelete\LinearTableDelete.csproj", "{ADED4C46-DAF7-42CF-A214-44C47286BEC2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InsertSortingAlgorithm", "InsertSortingAlgorithm\InsertSortingAlgorithm.csproj", "{37414BBA-E4B1-4281-9DD3-6C085C6E0E23}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +35,22 @@ Global
 		{98F73CF9-3BE2-4AC2-B108-6B7DC4C7D050}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{98F73CF9-3BE2-4AC2-B108-6B7DC4C7D050}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{98F73CF9-3BE2-4AC2-B108-6B7DC4C7D050}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54DA52AD-0A56-4BD8-B980-0C0A8A2401C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54DA52AD-0A56-4BD8-B980-0C0A8A2401C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54DA52AD-0A56-4BD8-B980-0C0A8A2401C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54DA52AD-0A56-4BD8-B980-0C0A8A2401C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6B0742A-3743-44B4-A6AC-2A91E40CB3A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6B0742A-3743-44B4-A6AC-2A91E40CB3A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6B0742A-3743-44B4-A6AC-2A91E40CB3A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6B0742A-3743-44B4-A6AC-2A91E40CB3A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADED4C46-DAF7-42CF-A214-44C47286BEC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADED4C46-DAF7-42CF-A214-44C47286BEC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADED4C46-DAF7-42CF-A214-44C47286BEC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADED4C46-DAF7-42CF-A214-44C47286BEC2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37414BBA-E4B1-4281-9DD3-6C085C6E0E23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37414BBA-E4B1-4281-9DD3-6C085C6E0E23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37414BBA-E4B1-4281-9DD3-6C085C6E0E23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37414BBA-E4B1-4281-9DD3-6C085C6E0E23}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
