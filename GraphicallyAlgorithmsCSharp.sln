@@ -9,13 +9,23 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MinValue", "MinValue\MinVal
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SelectSort", "SelectSort\SelectSort.csproj", "{98F73CF9-3BE2-4AC2-B108-6B7DC4C7D050}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinearTableAppend", "LinearTableAppend\LinearTableAppend.csproj", "{54DA52AD-0A56-4BD8-B980-0C0A8A2401C4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinearTableAppend", "LinearTableAppend\LinearTableAppend.csproj", "{54DA52AD-0A56-4BD8-B980-0C0A8A2401C4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinearTableInsert", "LinearTableInsert\LinearTableInsert.csproj", "{F6B0742A-3743-44B4-A6AC-2A91E40CB3A1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinearTableInsert", "LinearTableInsert\LinearTableInsert.csproj", "{F6B0742A-3743-44B4-A6AC-2A91E40CB3A1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinearTableDelete", "LinearTableDelete\LinearTableDelete.csproj", "{ADED4C46-DAF7-42CF-A214-44C47286BEC2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinearTableDelete", "LinearTableDelete\LinearTableDelete.csproj", "{ADED4C46-DAF7-42CF-A214-44C47286BEC2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InsertSortingAlgorithm", "InsertSortingAlgorithm\InsertSortingAlgorithm.csproj", "{37414BBA-E4B1-4281-9DD3-6C085C6E0E23}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InsertSortingAlgorithm", "InsertSortingAlgorithm\InsertSortingAlgorithm.csproj", "{37414BBA-E4B1-4281-9DD3-6C085C6E0E23}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReverseArray", "ReverseArray\ReverseArray.csproj", "{F7C7E2F7-9328-4ADB-B701-A3DE8D47D252}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinearTableSearch", "LinearTableSearch\LinearTableSearch.csproj", "{215C488C-F077-41A6-A772-B780DB8E3135}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DichotomyBinarySearch", "DichotomyBinarySearch\DichotomyBinarySearch.csproj", "{0BCE7BF4-75CA-4C7B-A92A-8BA23E1BC5DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShellSorting", "ShellSorting\ShellSorting.csproj", "{63E4CF15-2DA9-47BF-9C04-CEE0C64003CB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnidirectionalLinkedList", "UnidirectionalLinkedList\UnidirectionalLinkedList.csproj", "{2D177B7E-6788-4B91-A719-9EC52AB6E4E1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +61,26 @@ Global
 		{37414BBA-E4B1-4281-9DD3-6C085C6E0E23}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{37414BBA-E4B1-4281-9DD3-6C085C6E0E23}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{37414BBA-E4B1-4281-9DD3-6C085C6E0E23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7C7E2F7-9328-4ADB-B701-A3DE8D47D252}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7C7E2F7-9328-4ADB-B701-A3DE8D47D252}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7C7E2F7-9328-4ADB-B701-A3DE8D47D252}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7C7E2F7-9328-4ADB-B701-A3DE8D47D252}.Release|Any CPU.Build.0 = Release|Any CPU
+		{215C488C-F077-41A6-A772-B780DB8E3135}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{215C488C-F077-41A6-A772-B780DB8E3135}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{215C488C-F077-41A6-A772-B780DB8E3135}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{215C488C-F077-41A6-A772-B780DB8E3135}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0BCE7BF4-75CA-4C7B-A92A-8BA23E1BC5DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BCE7BF4-75CA-4C7B-A92A-8BA23E1BC5DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BCE7BF4-75CA-4C7B-A92A-8BA23E1BC5DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BCE7BF4-75CA-4C7B-A92A-8BA23E1BC5DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63E4CF15-2DA9-47BF-9C04-CEE0C64003CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63E4CF15-2DA9-47BF-9C04-CEE0C64003CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63E4CF15-2DA9-47BF-9C04-CEE0C64003CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63E4CF15-2DA9-47BF-9C04-CEE0C64003CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D177B7E-6788-4B91-A719-9EC52AB6E4E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D177B7E-6788-4B91-A719-9EC52AB6E4E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D177B7E-6788-4B91-A719-9EC52AB6E4E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D177B7E-6788-4B91-A719-9EC52AB6E4E1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
