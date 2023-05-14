@@ -31,7 +31,7 @@ static Node Init()
 static void Print(Node node)
 {
     Node p = node;
-    while (p.next != null)
+    while (p != null)
     {
         Console.Write($"{p.data} -> ");
         p = p.next;
@@ -56,11 +56,3 @@ public class Node
         this.next = next;
     }
 }
-
-
-
-
-
-
-
-
