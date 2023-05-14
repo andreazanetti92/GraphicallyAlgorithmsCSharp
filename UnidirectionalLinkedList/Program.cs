@@ -7,6 +7,11 @@ Console.WriteLine("Unidirectional Linked List");
 // Each node consist of data and next pointer to the next node
 
 Init();
+
+Insert(2, new Node("Palo Alto", null)); // insert at the given position
+Add(new Node("Walnut", null)); // add at the end
+Remove(1);
+
 Print(UnidirectionalLinkedList.head);
 
 
@@ -26,6 +31,44 @@ static Node Init()
     nodeBerkeley.next = UnidirectionalLinkedList.tail;
 
     return UnidirectionalLinkedList.head;
+}
+
+static void Add(Node node)
+{
+    UnidirectionalLinkedList.tail.next = node;
+    UnidirectionalLinkedList.tail = node;
+}
+
+static void Insert(int index, Node node)
+{
+    Node p = UnidirectionalLinkedList.head;
+    int i = 0;
+    while(p.next != null && i < index - 1)
+    {
+        p = p.next;
+        i++;
+    }
+
+    node.next = p.next;
+    p.next = node;
+
+}
+
+static void Remove(int position)
+{
+    Node p = UnidirectionalLinkedList.head;
+    int i = 0;
+    while(p.next != null && i < position - 1)
+    {
+        p = p.next;
+        i++;
+    }
+
+    Node temp = p.next;
+    p.next = p.next.next;
+    temp.next = null;
+
+    //(p.next.next, p.next) = (p.next, null);
 }
 
 static void Print(Node node)
