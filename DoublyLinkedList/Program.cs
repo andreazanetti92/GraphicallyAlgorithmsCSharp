@@ -2,10 +2,13 @@
 Console.WriteLine("Doubly Linked List");
 
 Init();
-Print(DoublyLinkedList.head);
+Insert(1, new Node("Palo Alto"));
 Add(new Node("Walnut"));
-//PrintBackward(DoublyLinkedList.tail);
+Remove(2);
 
+Print(DoublyLinkedList.head);
+
+//PrintBackward(DoublyLinkedList.tail);
 
 static Node Init()
 {
@@ -35,6 +38,39 @@ static void Add(Node node)
     node.prev = DoublyLinkedList.tail;
     DoublyLinkedList.tail = node;
 
+}
+
+static void Insert(int position, Node node)
+{
+    Node p = DoublyLinkedList.head;
+    int i = 0;
+    while(p != null && i < position - 1)
+    {
+        p = p.next;
+        i++;
+    }
+
+    node.next = p.next;
+    p.next = node;
+    node.prev = p;
+    node.next.prev = node;
+}
+
+static void Remove(int position)
+{
+    Node p = DoublyLinkedList.head;
+    int i = 0;
+    while(p.next != null &&  i < position - 1)
+    {
+        p = p.next;
+        i++;
+    }
+
+    Node temp = p.next;
+    p.next = p.next.next;
+    p.next.prev = p;
+    temp.next = null;
+    temp.prev = null;
 }
 
 static void Print(Node node)
