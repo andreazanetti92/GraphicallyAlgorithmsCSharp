@@ -20,12 +20,25 @@ tree.Insert(tree.getRoot(), 70);
 tree.Insert(tree.getRoot(), 90);
 
 Console.WriteLine("In-Order Traversal binary search tree");
-
 tree.InOrder(tree.getRoot());
 
 Console.WriteLine("\nPre-Order Traversal binary search tree");
-
 tree.PreOrder(tree.getRoot());
+
+Console.WriteLine("\nPre-Order Traversal binary search tree");
+tree.PostOrder(tree.getRoot());
+
+Console.WriteLine("\n Min Value");
+tree.MinValue(tree.getRoot());
+
+Console.WriteLine("\n Max Value");
+tree.MaxValue(tree.getRoot());
+
+Console.WriteLine("\n Delete node 40");
+tree.Remove(tree.getRoot(), 40);
+
+Console.WriteLine("In-Order Traversal binary search tree");
+tree.InOrder(tree.getRoot());
 
 public class BinaryTree
 {
@@ -33,6 +46,62 @@ public class BinaryTree
     public Node getRoot()
     {
         return root;
+    }
+
+    public Node Remove(Node node, int data)
+    {
+        if (node == null) return node;
+
+        int compareValue = data - node.data;
+
+        if (compareValue > 0) node.right = Remove(node.right, data);
+
+        else if(compareValue < 0) node.left = Remove(node.left, data);
+
+        else if(node.left != null && node.right != null)
+        {
+            node.data = MinValue(node.right).data;
+            node.right = Remove(node.right, node.data);
+        }
+        else
+        {
+            node = (node.left != null) ? node.left : node.right;
+        }
+
+        return node;
+
+
+    }
+
+    // Minimun Value 
+    public Node MinValue(Node node)
+    {
+        if (node == null || node.data == 0) return null;
+
+        if (node.left == null) return node;
+
+        return MinValue(node.left);
+    }
+
+    // Maximum Value
+    public Node MaxValue(Node node)
+    {
+        if (node == null || node.data == 0) return null;
+
+        if(node.right == null) return node;
+
+        return node.right;
+    }
+
+    // Post-Order traversal binary
+    public void PostOrder(Node root)
+    {
+        if (root == null) return;
+
+        PostOrder(root.left);
+        PostOrder(root.right);
+
+        Console.Write(root.data + ", ");
     }
 
     // Pre-Order traversal binary
