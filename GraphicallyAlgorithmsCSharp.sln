@@ -33,17 +33,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OneWayCircularLinkedList", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TwoWayCircularLinkedList", "TwoWayCircularLinkedList\TwoWayCircularLinkedList.csproj", "{1D60EB6E-262E-43FE-BB7D-1AA7C9F4897A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QueueFIFO", "QueueFIFO\QueueFIFO.csproj", "{109735AA-2196-493D-9787-44128B91D4B8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QueueFIFO", "QueueFIFO\QueueFIFO.csproj", "{109735AA-2196-493D-9787-44128B91D4B8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StackFILO", "StackFILO\StackFILO.csproj", "{213C7A33-95E9-42E8-B147-3217FB9138A2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StackFILO", "StackFILO\StackFILO.csproj", "{213C7A33-95E9-42E8-B147-3217FB9138A2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecursiveAlgorithm", "RecursiveAlgorithm\RecursiveAlgorithm.csproj", "{D2CA2549-F537-4450-B1D5-B0A25AF368B5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RecursiveAlgorithm", "RecursiveAlgorithm\RecursiveAlgorithm.csproj", "{D2CA2549-F537-4450-B1D5-B0A25AF368B5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwoWayMerge", "TwoWayMerge\TwoWayMerge.csproj", "{58FEC9EA-1ECC-4F29-94EB-14FB501001FD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TwoWayMerge", "TwoWayMerge\TwoWayMerge.csproj", "{58FEC9EA-1ECC-4F29-94EB-14FB501001FD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuickSort", "QuickSort\QuickSort.csproj", "{2EFB4ABB-E5DC-4031-87CF-D0CFE744DF10}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuickSort", "QuickSort\QuickSort.csproj", "{2EFB4ABB-E5DC-4031-87CF-D0CFE744DF10}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinarySearchTree", "BinarySearchTree\BinarySearchTree.csproj", "{51411FCD-2BE3-4308-B39B-E717448F27B9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BinarySearchTree", "BinarySearchTree\BinarySearchTree.csproj", "{51411FCD-2BE3-4308-B39B-E717448F27B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryHeapSort", "BinaryHeapSort\BinaryHeapSort.csproj", "{23816228-D93A-4610-827C-1ED5BC62E949}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HashTable", "HashTable\HashTable.csproj", "{DF55835E-0F66-4E99-9181-EF26A164FF0B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -135,6 +139,14 @@ Global
 		{51411FCD-2BE3-4308-B39B-E717448F27B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{51411FCD-2BE3-4308-B39B-E717448F27B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{51411FCD-2BE3-4308-B39B-E717448F27B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23816228-D93A-4610-827C-1ED5BC62E949}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23816228-D93A-4610-827C-1ED5BC62E949}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23816228-D93A-4610-827C-1ED5BC62E949}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23816228-D93A-4610-827C-1ED5BC62E949}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF55835E-0F66-4E99-9181-EF26A164FF0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF55835E-0F66-4E99-9181-EF26A164FF0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF55835E-0F66-4E99-9181-EF26A164FF0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF55835E-0F66-4E99-9181-EF26A164FF0B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

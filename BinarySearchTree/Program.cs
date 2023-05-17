@@ -29,10 +29,10 @@ Console.WriteLine("\nPre-Order Traversal binary search tree");
 tree.PostOrder(tree.getRoot());
 
 Console.WriteLine("\n Min Value");
-tree.MinValue(tree.getRoot());
+Console.WriteLine(tree.MinValue(tree.getRoot()).data);
 
 Console.WriteLine("\n Max Value");
-tree.MaxValue(tree.getRoot());
+Console.WriteLine(tree.MaxValue(tree.getRoot()).data);
 
 Console.WriteLine("\n Delete node 40");
 tree.Remove(tree.getRoot(), 40);
@@ -69,8 +69,6 @@ public class BinaryTree
         }
 
         return node;
-
-
     }
 
     // Minimun Value 
