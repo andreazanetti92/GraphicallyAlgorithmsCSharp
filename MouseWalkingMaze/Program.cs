@@ -1,5 +1,4 @@
 ﻿// See https://aka.ms/new-console-template for more information
-using System.Text;
 
 Console.WriteLine("Mouse Walking Maze");
 
@@ -15,10 +14,11 @@ for (int i = 0; i < 7; i++)
 {
     for (int j = 0; j < 7; j++)
     {
-        if (MouseWalkingMaze.maze[i, j] == 0) Console.Write("#");
-        else Console.Write("* ");
+        if (MouseWalkingMaze.maze[i, j] == 2) Console.Write(" # ");
+        else Console.Write(" * ");
     }
-    Console.Write("");
+    Console.WriteLine("");
+    Console.WriteLine("");
 }
 
 if (MouseWalkingMaze.Visit(MouseWalkingMaze.startI, MouseWalkingMaze.startJ) == 0) Console.Write("No Exit Found");
@@ -29,10 +29,11 @@ else
     {
         for (int j = 0; j < 7; j++)
         {
-            if (MouseWalkingMaze.maze[i, j] == 2) Console.Write("#");
-            else if (MouseWalkingMaze.maze[i, j] == 1) Console.Write("- ");
-            else Console.Write("* ");
+            if (MouseWalkingMaze.maze[i, j] == 2) Console.Write(" # ");
+            else if (MouseWalkingMaze.maze[i, j] == 1) Console.Write(" - ");
+            else Console.Write(" * ");
         }
+        Console.WriteLine("");
         Console.WriteLine("");
     }
 }
