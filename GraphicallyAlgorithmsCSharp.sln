@@ -45,25 +45,27 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuickSort", "QuickSort\Quic
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BinarySearchTree", "BinarySearchTree\BinarySearchTree.csproj", "{51411FCD-2BE3-4308-B39B-E717448F27B9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryHeapSort", "BinaryHeapSort\BinaryHeapSort.csproj", "{23816228-D93A-4610-827C-1ED5BC62E949}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BinaryHeapSort", "BinaryHeapSort\BinaryHeapSort.csproj", "{23816228-D93A-4610-827C-1ED5BC62E949}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HashTable", "HashTable\HashTable.csproj", "{DF55835E-0F66-4E99-9181-EF26A164FF0B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HashTable", "HashTable\HashTable.csproj", "{DF55835E-0F66-4E99-9181-EF26A164FF0B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UndirectedGraph.DepthFirstSearch", "UndirectedGraph.DepthFirstSearch\UndirectedGraph.DepthFirstSearch.csproj", "{550E8293-A1D4-48FF-A587-44BD8BAA2E7F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UndirectedGraph.DepthFirstSearch", "UndirectedGraph.DepthFirstSearch\UndirectedGraph.DepthFirstSearch.csproj", "{550E8293-A1D4-48FF-A587-44BD8BAA2E7F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UndirectedGraph.BreadthFirstSearch", "UndirectedGraph.BreadthFirstSearch\UndirectedGraph.BreadthFirstSearch.csproj", "{8C223955-2104-48DA-935D-F575157CA58C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UndirectedGraph.BreadthFirstSearch", "UndirectedGraph.BreadthFirstSearch\UndirectedGraph.BreadthFirstSearch.csproj", "{8C223955-2104-48DA-935D-F575157CA58C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DirectedGraph.DepthFirstSearch", "DirectedGraph.DepthFirstSearch\DirectedGraph.DepthFirstSearch.csproj", "{8BC51A55-10F6-4F45-A33A-5D3894C61ADF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DirectedGraph.DepthFirstSearch", "DirectedGraph.DepthFirstSearch\DirectedGraph.DepthFirstSearch.csproj", "{8BC51A55-10F6-4F45-A33A-5D3894C61ADF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DirectedGraph.BreadthFirstSearch", "DirectedGraph.BreadthFirstSearch\DirectedGraph.BreadthFirstSearch.csproj", "{9C3E5CCF-3934-4654-ABDD-3F200150AC10}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DirectedGraph.BreadthFirstSearch", "DirectedGraph.BreadthFirstSearch\DirectedGraph.BreadthFirstSearch.csproj", "{9C3E5CCF-3934-4654-ABDD-3F200150AC10}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DirectedGraph.TopologicalSorting", "DirectedGraph.TopologicalSorting\DirectedGraph.TopologicalSorting.csproj", "{1BFDC4C6-0AA2-4607-A04F-F34C1B61A842}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DirectedGraph.TopologicalSorting", "DirectedGraph.TopologicalSorting\DirectedGraph.TopologicalSorting.csproj", "{1BFDC4C6-0AA2-4607-A04F-F34C1B61A842}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TowersOfHanoi", "TowersOfHanoi\TowersOfHanoi.csproj", "{A7AF9A4D-B228-46F2-A5F1-A325704C38F5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TowersOfHanoi", "TowersOfHanoi\TowersOfHanoi.csproj", "{A7AF9A4D-B228-46F2-A5F1-A325704C38F5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Finbonacci", "Finbonacci\Finbonacci.csproj", "{3EEF3F2B-D231-4DF2-93B1-7D85BAE4DDB7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Finbonacci", "Finbonacci\Finbonacci.csproj", "{3EEF3F2B-D231-4DF2-93B1-7D85BAE4DDB7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dijkstra", "Dijkstra\Dijkstra.csproj", "{616B985C-E10F-4702-B283-3F2498C94455}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dijkstra", "Dijkstra\Dijkstra.csproj", "{616B985C-E10F-4702-B283-3F2498C94455}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MouseWalkingMaze", "MouseWalkingMaze\MouseWalkingMaze.csproj", "{FEDC3FAA-B513-4281-ADD9-4C22DE03AEB4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -195,6 +197,10 @@ Global
 		{616B985C-E10F-4702-B283-3F2498C94455}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{616B985C-E10F-4702-B283-3F2498C94455}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{616B985C-E10F-4702-B283-3F2498C94455}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEDC3FAA-B513-4281-ADD9-4C22DE03AEB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEDC3FAA-B513-4281-ADD9-4C22DE03AEB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEDC3FAA-B513-4281-ADD9-4C22DE03AEB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEDC3FAA-B513-4281-ADD9-4C22DE03AEB4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
